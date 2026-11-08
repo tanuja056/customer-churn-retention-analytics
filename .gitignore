@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local datasets
+data/raw/*
+data/processed/*
+
+# Keep folders visible in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Power BI files (keep local until licensing is verified)
+*.pbix
+
+# Local logs
+analysis_log.txt
+
+# OS files
+.DS_Store
+Thumbs.db
